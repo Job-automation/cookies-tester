@@ -73,3 +73,6 @@ npm run test
   ├── helper.js       # setCookies helper
   └── package.json
 ```
+
+# About us
+We’re a team of experienced developers from India, focused on simplifying and automating the job-seeking process. Learn more about our mission at www.wokflo.in/about
