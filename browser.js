@@ -47,7 +47,7 @@ async function launchBrowser(USE_BROWSERCLOUD, HEADLESS, TOKEN) {
 
     browser = await puppeteer.connect({
       browserWSEndpoint: `wss://chrome-v2.browsercloud.io?${params.toString()}`,
-      defaultViewport: { width: 1920, height: 1080 },
+      defaultViewport: { width: 1920, height: 1080, deviceScaleFactor: 1 },
     });
   }
 
