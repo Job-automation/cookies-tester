@@ -5,8 +5,8 @@ A simple Node.js + Puppeteer setup to demonstrate how we use Browsercloud in our
 # 🚀 Installation
 
 ```bash
-git clone <your-repo-url>
-cd <project-folder>
+git clone https://github.com/Job-automation/cookies-tester
+cd cookies-tester
 npm install 
 ```
 
