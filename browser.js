@@ -43,6 +43,9 @@ async function launchBrowser(USE_BROWSERCLOUD, HEADLESS, TOKEN) {
       token: TOKEN,
       timeout: `${5 * 60 * 1000}`,
       stealthMode: "stealth-v2",
+      blockRes: "off",
+      // proxy: "datacenter",
+      // proxyCountry : "US"
     });
 
     browser = await puppeteer.connect({
